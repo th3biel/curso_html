@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Colocando Imagens</h1>
+    <h2>Imagem não dinâmica</h2>
+    <img src="imagens/paisagem-m.png" alt="Imagem média">
+
+    <h2>Imagem dinâmica</h2>
+    <picture>
+        <source media="(max-width: 790px )" srcset="imagens/paisagem-p.png" type="image/png">
+
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+
+        <img src="imagens/paisagem-g.png" alt="Imagem grande">
+
+    </picture>
+    
+</body>
+</html>

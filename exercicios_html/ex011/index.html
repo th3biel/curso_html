@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens e áudios</title>
+</head>
+<h1>Tamanhos de imagens e áudios</h1>
+<h2>Imagens dinâmica</h2>
+<p>Podemos redmencionar a imagem com base no tamanho da tela do cliente.</p>
+<picture>
+    <source media="(max-width: 690px )" srcset="imagens/dmc_p.png" type="image/png">
+    <source media="(max-width: 1250px )" srcset="imagens/dmc_m.png" type="image/png">
+    <img src="imagens/dmc_g.png" alt="Imagem dmc"></picture>
+<h2>Reproduzindo áudios</h2>
+<h3>Maneiras</h3>
+<ul>
+    <li>
+        <p>usando o: &lt;audio src=""&gt;&lt;/audio&gt; controls autoplay</p>
+        <audio src="audio/HOJE TEM GOL DO RIBAMAR REMIX.mp3"controls autoplay></audio>
+    </li>
+    <li>Usando o: 
+        <pre>
+            <code>
+                &lt;audio&gt;
+                    &lt;source src="audio/HOJE TEM GOL DO RIBAMAR REMIX.mp3&gt;
+                    &lt;/audio&gt;
+            </code>
+        </pre>
+        <audio preload="metadata" controls>
+            <source src="audio/HOJE TEM GOL DO RIBAMAR REMIX.mp3" type="audio/mpeg">
+            <source src="audio/HOJE TEM GOL DO RIBAMAR REMIX.wav" type="audio/wav">
+            <source src="audio/HOJE TEM GOL DO RIBAMAR REMIX.ogg" type="audio/ogg">
+            <p>Infelizmente o seu navegador não suporta os formatos disponibilizados do áudio</p>
+            <p>Clique aqui para baixar o <a href="audio/HOJE TEM GOL DO RIBAMAR REMIX.mp3"> áudio</a></p>
+        </audio>
+        </audio>
+    </li>
+</ul>
+
+
+
+
+<body>
+    
+</body>
+</html>

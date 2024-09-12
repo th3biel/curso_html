@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a::after{
+            margin: 0px 20px 0px 0px;
+            content: ' link ';
+        }
+        ul{
+            
+            list-style-image: url('meu_icone.png');
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+        header{
+            border-radius: 0px 10px;
+
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: black;
+            padding: 3px;
+
+        }
+        nav:hover{
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.267);
+            
+        }
+        nav > a:hover{
+            color: aquamarine;
+            font-size: 18px;
+            
+
+        }
+            
+        main
+        {
+          background-color: white;
+          padding: 10px;
+          margin: 10px;
+
+        }
+
+        main > article{
+            background-color: lightgray;
+        }
+        .botao{
+            color: black;
+            
+            font-weight: 600;
+            size-adjust: auto;
+            text-align: center;
+            background-color: aqua;
+            margin: auto;
+            padding: 10px 30px 10px 30px;
+            height: 45px;
+            width: 100px;
+
+            outline-width: 10px;
+            outline-color: rgba(0, 0, 0, 0.13);
+            outline-style: auto;
+
+            box-shadow:  0px 0px 15px aqua;
+            border-radius: 10%;
+        }
+        .botao:hover{
+           color: aqua;
+           background-color: black;
+           box-shadow:inset 2px 1px 14px 6px rgb(255, 255, 255);
+           box-shadow:  0px 0px 0px aqua;
+           
+
+
+            
+        }
+        article > aside{
+            background-color: rgb(173, 173, 173);
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            
+            margin: 0px;
+
+        }
+
+    </style>
+    <title>Grouping tags</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>Seção de blábláblá</p>
+
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eum optio quaerat impedit aperiam qui fuga odit consequuntur unde quod reprehenderit nesciunt quis? Ratione ipsa ea illo inventore veritatis voluptatibus.q</p>
+                <article>
+                    <h2>O blablabla</h2>
+                    <ul>
+                        <li><h3>titulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit eos cumque explicabo accusamus id ut ipsam suscipit tenetur voluptas ab eum incidunt magni maxime blanditiis, nihil mollitia repellendus molestiae.</p></li>
+
+                        <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit eos cumque explicabo accusamus id ut ipsam suscipit tenetur voluptas ab eum incidunt magni maxime blanditiis, nihil mollitia repellendus molestiae.</p></li>
+                    </ul>
+                    <aside>
+                        <p>Autor: zé mané</p>
+                    </aside>
+                </article>
+            </article>
+            <section>
+                <a href="https://www.youtube.com/watch?v=8qFbyBwFuHM" target="_blank">
+                    <p class="botao">Quero emagrecer!</p>
+                </a>
+            </section>
+        </section>
+
+
+    </main>
+    <footer>
+        <article>
+            <section>
+                <p>letra miúdas ssasasas</p>
+            </section>
+        </article>
+    </footer>
+</body>
+</html>
